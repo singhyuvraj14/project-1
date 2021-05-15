@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finance Site</title>
+    <link rel="stylesheet" href="project1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="fa/fontawesome-free-5.15.3-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fa/fontawesome-free-5.15.3-web/css/brands.css">
+    <link rel="stylesheet" href="fa/fontawesome-free-5.15.3-web/css/solid.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="icon"><img src="icon.JPG" class="img-ic"></div>
+        <div class="bar-con">
+            <div class="open-Nav" id="btn11">&#9776;</div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-star" aria-hidden="true"
+                        style="color: gold;font-size: 1.2vw;"></i> Services <i class="arrow down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                    <a href="#">Link 5</a>
+                    <a href="#">Link 6</a>
+                    <a href="#">Link 7</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-lightbulb"
+                        style="color: gold;font-size: 1.2vw;"></i> Quality <i class="arrow down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                    <a href="#">Link 5</a>
+                    <a href="#">Link 6</a>
+                    <a href="#">Link 7</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-plane-departure" style="color: gold;font-size: 1.2vw;"></i> Travel <i
+                        class="arrow down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                    <a href="#">Link 5</a>
+                    <a href="#">Link 6</a>
+                    <a href="#">Link 7</a>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="box" placeholder="Search Transactions/Mobile">
+                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="dropdown1">
+                <i class="fa fa-bell" aria-hidden="true" style="color: gold;font-size: 1.2vw;"></i>
+                <button class="dropbtn1"></i>SANJAY TELECOM <i class="arrow down"></i></button>
+                <div class="dropdown-content1">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a href="#"><i class="fas fa-user-circle"></i></a>
+        </div>
+    </div>
+    <div class="marq">
+        <marquee>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</marquee>
+    </div>
+    <div class="W-body">
+        <div id="myNav" class="nav-panel">
+            <div class="navi"style="padding: 7% 0% 3% 7%;" id="navi1">NAVIGATION </div>
+            <div class="nav-con">
+                <ul>
+                    <li style="padding-top: 0;"><a href="#"><img src="Dash.png" class="vis" id="vis1"><span id="hidden1" class="hidden"> Dashboard</span></a></li>
+                    <li><a href="#"><img src="business.PNG" class="vis" id="vis2"><span id="hidden2" class="hidden">Business Summary</span> </a></li>
+                    <li><a href="#"><img src="trans.PNG" class="vis" id="vis3"> <span id="hidden3" class="hidden">Transaction</span></a></li>
+                    <li><a href="#"><img src="refund.PNG" class="vis" id="vis4"><span id="hidden4" class="hidden"> Refund Pending</span></a></li>
+                    <li><a href="#"><img src="requests.PNG" class="vis" id="vis5"><span id="hidden5" class="hidden"> Money Request</span></a></li>
+                    <li><a href="#"><img src="bills.PNG" class="vis" id="vis6"> <span id="hidden6" class="hidden">Statements</span></a></li>
+                    <li><a href="#"><img src="charge.PNG" class="vis" id="vis7"> <span id="hidden7" class="hidden">Charges & Rates</span></a></li>
+                </ul>
+            </div>
+            <div class="navi" style="padding: 3% 0% 3% 7%;" id="navi2">CONFIGURATION</div>
+            <div class="nav-con">
+                <ul>
+                    <li><a href="#" style="padding-top: 0;"><img src="Account.PNG" class="vis" id="vis8"> <span id="hidden8" class="hidden">Settelment
+                        Account</span></a></li>
+                    <li><a href="#"><img src="Security.PNG" class="vis" id="vis9"><span id="hidden9" class="hidden"> Security Questions</span></a></li>
+                    <li><a href="#"><img src="Setting.PNG" class="vis" id="vis10"><span id="hidden10" class="hidden"> Settings</span></a></li>
+                </ul>
+            </div>
+            <div class="support" id="supp">
+                Customer Support
+                <hr style="margin: 2% 10%;padding: 0;background: white;height: 1px;border: none;">
+                1800-123-456<br>
+                +91 987654321
+            </div>
+        </div>
+        <div class="cons" id="con">
+            <div class="left" id="lft">
+                <div class="services">
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <p>Transfer</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-fingerprint"></i>
+                            </div>
+                            <p>AePS</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <p>Pay Bills</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <p>Recharge</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-satellite-dish"></i>
+                            </div>
+                            <p>DTH</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                                <div class="icons">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <p>Insurance</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <p>Gold/Silver</p>
+                        </div>
+                    </a>
+                    <a href="#" class="icn">
+                        <div class="s1">
+                            <div class="icons">
+                                <i class="fas fa-wallet"></i>
+                            </div>
+                            <p>Wallet</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="charts">
+                    <div class="expense">
+                        <h3>Expense</h3>
+                        <div class="pos">
+                            <button class="dots" type="button" onclick=""><i class="fa fa-ellipsis-h"></i></button>
+                        </div>
+                        <p><b>₹8,53,000</b> Money out for this week</p>
+                        <div class=chart1 id="chart1">
+                            <canvas id="expense-chart"></canvas>
+                        </div>
+                    </div>
+                    <div class="income">
+                        <h3>Income</h3>
+                        <div class="pos">
+                            <button class="dots" type="button" onclick=""><i class="fa fa-ellipsis-h"></i></button>
+                        </div>
+                        <p><b>₹8,53,000</b> Income on this week</p>
+                        <div class=chart1 id="chart2">
+                            <canvas id="income-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview">
+                    <div class="sp-ov">
+                        <h3>Spending Overview</h3>
+                        <div class="pos1">
+                            <button class="dots" type="button" onclick=""><i class="fa fa-ellipsis-h"></i></button>
+                        </div>
+                        <div class="a">
+                            <span class="txt1">30% use for hobbies</span><span class="txt3">-₹ 2,380.00</span>
+                        </div>
+                        <div class="b">
+                            <span class="txt1">30% use for hobbies</span><span class="txt3">-₹ 2,380.00</span>
+                        </div>
+                    </div>
+                    <div class="in-ov">
+                        <h3>Income Overview</h3>
+                        <div class="pos1">
+                            <button class="dots" type="button" onclick=""><i class="fa fa-ellipsis-h"></i></button>
+                        </div>
+                        <div class="a">
+                            <span class="txt1">30% use for hobbies</span><span class="txt2">+₹ 2,380.00</span>
+                        </div>
+                        <div class="b">
+                            <span class="txt1">30% use for hobbies</span><span class="txt2">+₹ 2,380.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right" id="rth">
+                <div class="banks">
+                    <div class="b1">
+                        <h5>Bank 1</h5>
+                        <div class="pos3">
+                            <button class="dots" type="button" onclick=""><i class="fas fa-sync-alt"></i></button>
+                        </div>
+                        <p>Balance</p>
+                        <h2>₹7,97,358</h2>
+                    </div>
+                    <div class="b2">
+                        <h5>Bank 2</h5>
+                        <div class="pos3">
+                            <button class="dots" type="button" onclick=""><i class="fas fa-sync-alt"></i></button>
+                        </div>
+                        <p>Balance</p>
+                        <h2>₹7,97,358</h2>
+                    </div>
+                </div>
+                <div class="tranX">
+                    <h3>Recent Transaction</h3>
+                    <div class="pos2">
+                        <button class="dots" type="button" onclick=""><i class="fa fa-ellipsis-h"></i></button>
+                    </div>
+                    <div class="t1">
+                        <div class="icons2">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="content">
+                            <span class="txt4">Lorem Ipsum</span><span class="txt3">-₹580</span>
+                            <span class="txt5">May, 02 2021&nbsp;&nbsp; 13:45 hrs</span><span class="txt6">Recharge</span>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <div class="icons3">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="content">
+                            <span class="txt4">Lorem Ipsum</span><span class="txt2">+₹580</span>
+                            <span class="txt5">May, 02 2021&nbsp;&nbsp; 13:45 hrs</span><span class="txt6">Recharge</span>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <div class="icons2">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="content">
+                            <span class="txt4">Lorem Ipsum</span><span class="txt3">-₹580</span>
+                            <span class="txt5">May, 02 2021&nbsp;&nbsp; 13:45 hrs</span><span class="txt6">Recharge</span>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <div class="icons3">
+                            <i class="fas fa-fingerprint"></i>
+                        </div>
+                        <div class="content">
+                            <span class="txt4">Lorem Ipsum</span><span class="txt2">+₹580</span>
+                            <span class="txt5">May, 02 2021&nbsp;&nbsp; 13:45 hrs</span><span class="txt6">Recharge</span>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <div class="icons2">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="content">
+                            <span class="txt4">Lorem Ipsum</span><span class="txt3">-₹580</span>
+                            <span class="txt5">May, 02 2021&nbsp;&nbsp; 13:45 hrs</span><span class="txt6">Recharge</span>
+                        </div>
+                    </div>
+                    <div class="t1">
+                        <div class="icons3">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="content">
+                            <span class="txt4">Lorem Ipsum</span><span class="txt3">-₹580</span>
+                            <span class="txt5">May, 02 2021&nbsp;&nbsp; 13:45 hrs</span><span class="txt6">Recharge</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+var expense = document.getElementById('expense-chart').getContext('2d');
+
+var massPopChart=new Chart(expense,{
+    type:'bar',
+    data:{
+        labels:['Mon','Tue','Wed','Thru','Fri','Sat','Sun'],
+        datasets:[{
+            label:'money',
+            data:[
+                5,3,4,5,1,7,4
+            ],
+            backgroundColor:'#ff9a3d',
+            minBarLength: 50,
+            borderRadius: 25,
+        }]
+    },
+    options:{
+        legend:{
+            display:false
+        }
+    }
+});
+
+var income = document.getElementById('income-chart').getContext('2d');
+
+var massPopChart=new Chart(income,{
+    type:'bar',
+    data:{
+        labels:['Mon','Tue','Wed','Thru','Fri','Sat','Sun'],
+        datasets:[{
+            label:'money',
+            data:[
+                4,6,3,7,6,1,4
+            ],
+            backgroundColor:'#525dc2',
+            minBarLength: 50,
+            borderRadius: 25
+        }]
+    },
+    options:{
+        legend:{
+            display:false
+        }
+    }
+});
+
+document.getElementById("btn11").addEventListener("click", open_close);
+
+var menuState = 0 
+function open_close() {
+   if(menuState === 1){
+    menuState = 0;
+    document.getElementById("myNav").style.width = "17%";
+    document.getElementById("con").style.width = "82%";
+    document.getElementById("lft").style.width = "69%";
+    document.getElementById("rth").style.width = "29%";
+    document.getElementById("hidden1").style.display="initial";
+    document.getElementById("hidden2").style.display="initial";
+    document.getElementById("hidden3").style.display="initial";
+    document.getElementById("hidden4").style.display="initial";
+    document.getElementById("hidden5").style.display="initial";
+    document.getElementById("hidden6").style.display="initial";
+    document.getElementById("hidden7").style.display="initial";
+    document.getElementById("hidden8").style.display="initial";
+    document.getElementById("hidden9").style.display="initial";
+    document.getElementById("hidden10").style.display="initial";
+    document.getElementById("navi1").style.display="block";
+    document.getElementById("navi2").style.display="block";
+    document.getElementById("supp").style.display="block";
+    document.getElementById("vis1").style.width = "15%";
+    document.getElementById("vis2").style.width = "15%";
+    document.getElementById("vis3").style.width = "15%";
+    document.getElementById("vis4").style.width = "15%";
+    document.getElementById("vis5").style.width = "15%";
+    document.getElementById("vis6").style.width = "15%";
+    document.getElementById("vis7").style.width = "15%";
+    document.getElementById("vis8").style.width = "15%";
+    document.getElementById("vis9").style.width = "15%";
+    document.getElementById("vis10").style.width = "15%";
+    document.getElementById("vis1").style.padding = "0%";
+    document.getElementById("vis2").style.padding = "0%";
+    document.getElementById("vis3").style.padding = "0%";
+    document.getElementById("vis4").style.padding = "0%" ;
+    document.getElementById("vis5").style.padding = "0%";
+    document.getElementById("vis6").style.padding = "0%";
+    document.getElementById("vis7").style.padding = "0%";
+    document.getElementById("vis8").style.padding = "0%";
+    document.getElementById("vis9").style.padding = "0%";
+    document.getElementById("vis10").style.padding = "0%";
+   }
+   else {
+    menuState = 1;
+    document.getElementById("myNav").style.width = "5%"; 
+    document.getElementById("con").style.width = "93%";
+    document.getElementById("lft").style.float = "left";
+    document.getElementById("rth").style.float = "right";
+    document.getElementById("lft").style.width = "70%";
+    document.getElementById("rth").style.width = "25%";
+    document.getElementById("chart1").style.width = "87%";
+    document.getElementById("chart2").style.width = "87%";
+    document.getElementById("hidden1").style.display="none";
+    document.getElementById("hidden2").style.display="none";
+    document.getElementById("hidden3").style.display="none";
+    document.getElementById("hidden4").style.display="none";
+    document.getElementById("hidden5").style.display="none";
+    document.getElementById("hidden6").style.display="none";
+    document.getElementById("hidden7").style.display="none";
+    document.getElementById("hidden8").style.display="none";
+    document.getElementById("hidden9").style.display="none";
+    document.getElementById("hidden10").style.display="none";
+    document.getElementById("navi1").style.display="none";
+    document.getElementById("navi2").style.display="none";
+    document.getElementById("supp").style.display="none";
+    document.getElementById("vis1").style.width = "55%";
+    document.getElementById("vis2").style.width = "55%";
+    document.getElementById("vis3").style.width = "55%";
+    document.getElementById("vis4").style.width = "55%";
+    document.getElementById("vis5").style.width = "55%";
+    document.getElementById("vis6").style.width = "55%";
+    document.getElementById("vis7").style.width = "55%";
+    document.getElementById("vis8").style.width = "55%";
+    document.getElementById("vis9").style.width = "55%";
+    document.getElementById("vis10").style.width = "55%";
+    document.getElementById("vis1").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis2").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis3").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis4").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis5").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis6").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis7").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis8").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis9").style.padding = "0% 0% 20% 7%";
+    document.getElementById("vis10").style.padding = "0% 0% 20% 7%";
+
+   }
+}
+    </script>
+</body>
+
+</html>
